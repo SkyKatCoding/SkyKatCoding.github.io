@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skyler York Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Skyler York | Portfolio</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Optional, for styling -->
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm Skyler York, an aspiring cybersecurity professional passionate about technology and problem-solving.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>Password Manager Project</li>
-            <li>Cisco Packet Tracer Lab</li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: skylerkatyork@gmail.com</p>
-    </section>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, I'm Skyler York, a cybersecurity professional with a passion for IT!</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm currently studying at Appalachian State University, specializing in Computer Science and Cybersecurity. I am passionate about helping organizations improve their security posture and learning new ways to protect sensitive data.</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <ul>
+      <li><a href="project1.html">Project 1</a> - A description of your first project.</li>
+      <li><a href="project2.html">Project 2</a> - A description of your second project.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you'd like to get in touch, feel free to email me at <a href="mailto:skylerkatyork@gmail.com">skylerkatyork@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Skyler York</p>
+  </footer>
 </body>
 </html>
